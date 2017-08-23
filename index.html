@@ -7,13 +7,45 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 </head>
 <body>
-<div class="container-fluid"> 
-    <h1>Three column layout</h1>
-    <div class="row">
-        <div class="col-md-4" style="background-color: aqua">Left</div>
-        <div class="col-md-4" style="background-color:blueviolet">Middle</div>
-        <div class="col-md-4" style="background-color:chartreuse">Right</div>
-    </div>
+<div class="container"> 
+    <h1>Text Styles</h1>
+    <p>You can highlight words or <mark>text using the mark</mark> tag.</p>
+    <blockquote>
+        <p>Practise makes perfect.</p>
+        <footer>Somebody</footer>
+    </blockquote>
+    <h4>Thinks to do</h4>
+    <dl>
+        <dt>Indoors</dt>
+            <dd>- Take a nap</dd>
+            <dd>- Study</dd>
+            <dd>- Watch a movie</dd>
+        <dt>Oudoors</dt>
+            <dd>- Surfing</dd>
+            <dd>- Running</dd>
+    </dl>
+
+    <p>To set a user weight use <code>setUserWeight(345)</code> with an integer</p>
+
+    <p>For multiple line codes use <code>&lt;pre&gt;</code> tag</p>
+    <pre>
+function multipleLines(string message){
+    Console.writeline(message);
+}    
+    </pre>
+
+    <p>This is supposed to be keyboard input <kbd>Ctrl+Alt+Del</kbd></p>
+
+    <h4>Bulit in color classes</h4>
+    <p class="text-muted">text-muted</p>
+    <p class="text-success">Congrats you've filled that form correctly</p>
+    <p class="text-danger">Danger text</p>
+    
+    <p class="bg-success">Congrats you've filled that form correctly</p>
+    <p class="bg-danger">Danger text</p>
+
+
+
 </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
