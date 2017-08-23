@@ -11,10 +11,15 @@
     <div class="container-fluid">
         <!-- Logo -->
         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
             <a href="#" class="navbar-brand">Blog do Tiburón</a>
         </div>
         <!-- Menu Itens -->
-        <div>
+        <div class="collapse navbar-collapse" id="mainNavBar">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -41,7 +46,7 @@
     </div>
 </nav>
 <div class="container-fluid">
-    <h1>Dropdown Menu</h1>
+    <h1>NavBar Toggle Button</h1>
 </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
